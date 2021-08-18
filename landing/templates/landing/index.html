@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The name is Deji. Deji Joseph.</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row vh-100">
+
+            <!-- only apply to larger screens -->
+            <div class="col-md-7 d-none d-md-block bg-dark">
+                <div class="row h-100 align-items-center">
+                    <div class="col">
+                        <div class="p-5 m-3">
+                            <p class="lead text-muted">The name is</p>
+                            <h1 class="display-1 fw-bolder text-light">Deji</h1>
+                            <h1 class="display-1 fw-bolder text-light">Deji Joseph</h1>
+                        </div>
+                        <div class="p-5 m-3">
+                            <h2 class="fw-bolder text-light">Say hi</h2>
+                            <form action="/contact" method="post">
+                                {% csrf_token %}
+                                <div class="mb-3">
+                                    <label for="nameFormControl" class="form-label text-light">Your name</label>
+                                    <input type="name" class="form-control" id="nameFormControl" name="name">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="emailFormControl" class="form-label text-light">Your email address</label>
+                                    <input type="email" class="form-control" id="emailFormControl" name="email">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="messageFormControl" class="form-label text-light">And your message</label>
+                                    <textarea class="form-control" id="messageFormControl" rows="4" name="message"></textarea>
+                                </div>
+                                <button class="btn btn-primary" type="submit">Send message</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-5 d-none d-md-block bg-light">
+                <div class="row h-100 align-items-center">
+                    <div class="col">
+                        <div class="p-5 m-3">
+                            
+                            <h4>Skills</h4>
+                            <p>Python. Javascript. PHP.</p>
+                            <p>Bootstrap. VueJS. Django. Starlette.</p>
+                            <p>Git/GitHub. GCP. AWS. Heroku. Docker.</p>
+
+                            <hr>
+
+                            <h4>Work experience</h4>
+                            <h5>Zuri‌ ‌Training‌</h5>
+                            <span class="text-muted">Intern‌ ‌—‌ ‌Remote;‌ ‌May‌ ‌2021‌</span>
+                            <p>
+                                Training‌ ‌is‌ ‌a‌ ‌4-month‌ ‌long‌ ‌program‌ ‌aimed‌ ‌at‌ ‌getting‌ ‌beginners‌ ‌started‌‌
+                                in‌ ‌the‌ ‌industry.‌ ‌Fully‌ ‌remote,‌ ‌the‌ ‌program‌ ‌combined‌ ‌hands-on‌ ‌experience‌‌
+                                working‌ ‌on‌ ‌real-life‌ ‌projects,‌ ‌collaboration,‌ ‌and‌ ‌mentorship‌ ‌to‌ ‌deliver‌ ‌an‌‌
+                                enabling‌ ‌environment‌ ‌to‌ ‌upskill‌ ‌developers.‌
+                                <br>
+                                ‌<b>Tools‌ ‌and‌ ‌technologies‌:‌ ‌PHP‌ ‌(Vanilla),‌ ‌Laravel,‌ ‌Git,‌ ‌GitHub‌ </b>
+                            ‌</p>
+                            ‌
+                            <h5>NX‌ ‌Innovations‌</h5>
+                            <span class="text-muted">Intern‌ ‌—‌ ‌Remote;‌ ‌August‌ ‌2020‌</span>
+                            <p>
+                                NX‌ ‌Innovations‌ ‌is‌ ‌a‌ ‌digital‌ ‌solutions‌ ‌provider‌ ‌for‌ ‌advertising‌ ‌and‌‌
+                                e-commerce.‌ ‌As‌ ‌an‌ ‌intern,‌ ‌I‌ ‌was‌ ‌part‌ ‌of‌ ‌a‌ ‌team‌ ‌building‌ ‌out‌ ‌the‌ ‌backend‌‌
+                                services‌ ‌to‌ ‌support‌ ‌the‌ ‌company’s‌ ‌expanding‌ ‌e-commerce‌ ‌offering:‌‌
+                                PhatOffers.‌
+                                <br>
+                                ‌<b>Tools‌ ‌and‌ ‌technologies‌:‌ ‌Django/DRF,‌ ‌PostgreSQL,‌ ‌Docker,‌ ‌Git‌</b>
+                            </p>
+                            ‌
+                            <h5>Ubycohub‌</h5> ‌
+                            <span class="text-muted">Freelance‌ ‌Developer‌ ‌—‌ ‌Remote;‌ ‌March‌ ‌2020</span>
+                            <p>
+                                Ubycohub‌ ‌offers‌ ‌business‌ ‌and‌ ‌trading‌ ‌facilities‌ ‌to‌ ‌customers‌ ‌to‌ ‌exchange‌‌
+                                digital‌ ‌products‌ ‌such‌ ‌as‌ ‌cryptocurrencies‌ ‌and‌ ‌gift‌ ‌cards.‌
+                                <ul>
+                                    <li>Designed‌ ‌and‌ ‌built‌ ‌web‌ ‌service‌ ‌that‌ ‌powers‌ ‌user’s‌ ‌and‌ ‌business’‌‌dashboard‌ ‌</li>
+                                    <li>Configured‌ ‌automated,‌ ‌test-driven‌ ‌deployments‌ ‌</li>
+                                ‌</ul>
+                                <b>Tools‌ ‌and‌ ‌technologies‌:‌ ‌Bootstrap,‌ ‌Django,‌ ‌PostgreSQL,‌ ‌Heroku,‌ ‌Git‌ ‌</b>
+                            </p> 
+‌
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- apply to smaller screens -->
+            <div class="col-md-7 d-sm-block d-md-none bg-dark mh-50 ">
+                <div class="row h-100 align-items-center">
+                    <div class="col">
+                        <div class="m-3">
+                            <p class="lead text-muted">The name is</p>
+                            <h1 class="display-2 fw-bolder text-light">Deji.</h1>
+                            <h1 class="display-2 fw-bolder text-light">Deji Joseph</h1>
+                        </div>
+
+                        <div class="m-3">
+                            <h2 class="fw-bolder text-light">Say hi</h2>
+                            <form action="/contact" method="post">
+                                {% csrf_token %}
+                                <div class="mb-3">
+                                    <label for="nameFormControl" class="form-label text-light">Your name</label>
+                                    <input type="name" class="form-control" id="nameFormControl">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="emailFormControl" class="form-label text-light">Your email address</label>
+                                    <input type="email" class="form-control" id="emailFormControl">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="messageFormControl" class="form-label text-light">And your message</label>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
+                                </div>
+                                <button class="btn btn-primary" type="submit">Send message</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-5 d-sm-block d-md-none bg-light mh-50">
+                <div class="row h-100 align-items-center">
+                    <div class="col">
+                        <div class="m-3">
+                            <h4>Skills</h4>
+                            <p>Python. Javascript. PHP.</p>
+                            <p>Bootstrap. VueJS. Django. Starlette.</p>
+                            <p>Git/GitHub. GCP. AWS. Heroku. Docker.</p>
+
+                            <hr>
+
+                            <h4>Work experience</h4>
+                            <h5>Zuri‌ ‌Training‌</h5>
+                            <span class="text-muted">Intern‌ ‌—‌ ‌Remote;‌ ‌May‌ ‌2021‌</span>
+                            <p>
+                                Training‌ ‌is‌ ‌a‌ ‌4-month‌ ‌long‌ ‌program‌ ‌aimed‌ ‌at‌ ‌getting‌ ‌beginners‌ ‌started‌‌
+                                in‌ ‌the‌ ‌industry.‌ ‌Fully‌ ‌remote,‌ ‌the‌ ‌program‌ ‌combined‌ ‌hands-on‌ ‌experience‌‌
+                                working‌ ‌on‌ ‌real-life‌ ‌projects,‌ ‌collaboration,‌ ‌and‌ ‌mentorship‌ ‌to‌ ‌deliver‌ ‌an‌‌
+                                enabling‌ ‌environment‌ ‌to‌ ‌upskill‌ ‌developers.‌
+                                <br>
+                                ‌<b>Tools‌ ‌and‌ ‌technologies‌:‌ ‌PHP‌ ‌(Vanilla),‌ ‌Laravel,‌ ‌Git,‌ ‌GitHub‌ </b>
+                            ‌</p>
+                            ‌
+                            <h5>NX‌ ‌Innovations‌</h5>
+                            <span class="text-muted">Intern‌ ‌—‌ ‌Remote;‌ ‌August‌ ‌2020‌</span>
+                            <p>
+                                NX‌ ‌Innovations‌ ‌is‌ ‌a‌ ‌digital‌ ‌solutions‌ ‌provider‌ ‌for‌ ‌advertising‌ ‌and‌‌
+                                e-commerce.‌ ‌As‌ ‌an‌ ‌intern,‌ ‌I‌ ‌was‌ ‌part‌ ‌of‌ ‌a‌ ‌team‌ ‌building‌ ‌out‌ ‌the‌ ‌backend‌‌
+                                services‌ ‌to‌ ‌support‌ ‌the‌ ‌company’s‌ ‌expanding‌ ‌e-commerce‌ ‌offering:‌‌
+                                PhatOffers.‌
+                                <br>
+                                ‌<b>Tools‌ ‌and‌ ‌technologies‌:‌ ‌Django/DRF,‌ ‌PostgreSQL,‌ ‌Docker,‌ ‌Git‌</b>
+                            </p>
+                            ‌
+                            <h5>Ubycohub‌</h5> ‌
+                            <span class="text-muted">Freelance‌ ‌Developer‌ ‌—‌ ‌Remote;‌ ‌March‌ ‌2020</span>
+                            <p>
+                                Ubycohub‌ ‌offers‌ ‌business‌ ‌and‌ ‌trading‌ ‌facilities‌ ‌to‌ ‌customers‌ ‌to‌ ‌exchange‌‌
+                                digital‌ ‌products‌ ‌such‌ ‌as‌ ‌cryptocurrencies‌ ‌and‌ ‌gift‌ ‌cards.‌
+                                <ul>
+                                    <li>Designed‌ ‌and‌ ‌built‌ ‌web‌ ‌service‌ ‌that‌ ‌powers‌ ‌user’s‌ ‌and‌ ‌business’‌‌dashboard‌ ‌</li>
+                                    <li>Configured‌ ‌automated,‌ ‌test-driven‌ ‌deployments‌ ‌</li>
+                                ‌</ul>
+                                <b>Tools‌ ‌and‌ ‌technologies‌:‌ ‌Bootstrap,‌ ‌Django,‌ ‌PostgreSQL,‌ ‌Heroku,‌ ‌Git‌ ‌</b>
+                            </p> 
+‌
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+        </div>
+    </div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+</body>
+</html>
