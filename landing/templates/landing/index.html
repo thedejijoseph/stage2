@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The name is Deji. Deji Joseph.</title>
+    <title>From Deji Joseph. A bit about me.</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     
@@ -14,16 +14,24 @@
         <div class="row vh-100">
 
             <!-- only apply to larger screens -->
-            <div class="col-md-7 d-none d-md-block bg-dark">
+            <div class="col-md-6 d-none d-md-block bg-dark">
                 <div class="row h-100 align-items-center">
                     <div class="col">
                         <div class="p-5 m-3">
-                            <p class="lead text-muted">The name is</p>
-                            <h1 class="display-1 fw-bolder text-light">Deji</h1>
-                            <h1 class="display-1 fw-bolder text-light">Deji Joseph</h1>
+                            <p class="text-muted fs-4">Hi</p>
+                            <h1 class="display-2 fw-bolder text-light">I'm Deji</h1>
+                            <span class="text-muted fs-3">@wrecodde</span>
+                            <hr class="text-light">
+                            <h1 class="text-light fw-lighter">Backend web developer</h1>
+
+                            <p class="pt-5 text-light fw-lighter fs-4">Building systems that work is what I do.</p>
+                            <p class="text-light fw-lighter fs-4">Make it good, make it secure, and of course, make it fast.</p>
+
+                            <a href="https://github.com/wrecodde"><img src="https://res.cloudinary.com/wrecodde/image/upload/v1629576138/GitHub-Mark-Light-32px_upkvz1.png" alt="GitHub" srcset="" class="rounded img-fluid"></a>
                         </div>
+
                         <div class="p-5 m-3">
-                            <h2 class="fw-bolder text-light">Say hi</h2>
+                            <p class="fs-4 text-light">Leave me a message</p>
                             <form action="/contact" method="post">
                                 {% csrf_token %}
                                 <div class="mb-3">
@@ -50,63 +58,92 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-5 d-none d-md-block bg-light">
+            <div class="col-md-6 d-none d-md-block bg-light">
                 <div class="row h-100 align-items-center">
                     <div class="col">
                         <div class="p-5 m-3">
 
-                            <h4>Skills</h4>
-                            <p>Python. Javascript. PHP.</p>
+                            <h4>Tech and tools I'm good with</h4>
+
+                            <p>Python 👌 and Javascript</p>
                             <p>Bootstrap. VueJS. Django. Starlette.</p>
                             <p>Git/GitHub. GCP. AWS. Heroku. Docker.</p>
 
                             <hr>
 
-                            <h4>Work experience</h4>
+                            <h4>Stuff I've worked on</h4>
 
-                            <h5><a href="https://internship.zuri.team" target="_blank">HNGi8 Internship Program‌</a></h5>
-                            <span class="text-muted">Intern‌ ‌—‌ ‌Remote;‌ Current‌</span>
-                            <p>
-                                The HNG Internsip is a well-established platform given to upskilling individuals 
-                                for the workplace environment, developers, and designers alike. 
-                                As an intern on the backend track, I get more hands-on experience building live products.
-                                <br>
-                                ‌<b>Tools‌ ‌and‌ ‌technologies‌:‌ Python, Django, Git, GitHub</b>
-                            ‌</p>
+                            <div>
+                                <div class="row">
+                                    <div class="col-md-5">
+                                        <h5><a href="https://internship.zuri.team" target="_blank">HNGi8 Internship Program‌</a></h5>
+                                        <span class="text-muted">Intern‌ ‌—‌ ‌Remote;‌ Current‌</span>
+                                        <br>
+                                        ‌<span class="font-monospace">Python, Django, Git, GitHub</span>
+                                    </div>
+                                    <div class="col-md-7">
+                                        <p>
+                                            Currently participating in the HNGi8 Internship Program on the backend track, working with Python/Django.<br>
+                                            Awesome people and an exciting experience so far, promises to get even better working on tasking challenges.
+                                            
+                                        ‌</p>
+                                    </div>
+                                </div>
+                            </div>
 
-                            <h5>Zuri‌ ‌Training‌</h5>
-                            <span class="text-muted">Intern‌ ‌—‌ ‌Remote;‌ ‌May‌ ‌2021‌</span>
-                            <p>
-                                Training‌ ‌is‌ ‌a‌ ‌4-month‌ ‌long‌ ‌program‌ ‌aimed‌ ‌at‌ ‌getting‌ ‌beginners‌ ‌started‌‌
-                                in‌ ‌the‌ ‌industry.‌ ‌Fully‌ ‌remote,‌ ‌the‌ ‌program‌ ‌combined‌ ‌hands-on‌ ‌experience‌‌
-                                working‌ ‌on‌ ‌real-life‌ ‌projects,‌ ‌collaboration,‌ ‌and‌ ‌mentorship‌ ‌to‌ ‌deliver‌ ‌an‌‌
-                                enabling‌ ‌environment‌ ‌to‌ ‌upskill‌ ‌developers.‌
-                                <br>
-                                ‌<b>Tools‌ ‌and‌ ‌technologies‌:‌ ‌PHP‌ ‌(Vanilla),‌ ‌Laravel,‌ ‌Git,‌ ‌GitHub‌ </b>
-                            ‌</p>
-                            ‌
-                            <h5>NX‌ ‌Innovations‌</h5>
-                            <span class="text-muted">Intern‌ ‌—‌ ‌Remote;‌ ‌August‌ ‌2020‌</span>
-                            <p>
-                                NX‌ ‌Innovations‌ ‌is‌ ‌a‌ ‌digital‌ ‌solutions‌ ‌provider‌ ‌for‌ ‌advertising‌ ‌and‌‌
-                                e-commerce.‌ ‌As‌ ‌an‌ ‌intern,‌ ‌I‌ ‌was‌ ‌part‌ ‌of‌ ‌a‌ ‌team‌ ‌building‌ ‌out‌ ‌the‌ ‌backend‌‌
-                                services‌ ‌to‌ ‌support‌ ‌the‌ ‌company’s‌ ‌expanding‌ ‌e-commerce‌ ‌offering:‌‌
-                                PhatOffers.‌
-                                <br>
-                                ‌<b>Tools‌ ‌and‌ ‌technologies‌:‌ ‌Django/DRF,‌ ‌PostgreSQL,‌ ‌Docker,‌ ‌Git‌</b>
-                            </p>
-                            ‌
-                            <h5>Ubycohub‌</h5> ‌
-                            <span class="text-muted">Freelance‌ ‌Developer‌ ‌—‌ ‌Remote;‌ ‌March‌ ‌2020</span>
-                            <p>
-                                Ubycohub‌ ‌offers‌ ‌business‌ ‌and‌ ‌trading‌ ‌facilities‌ ‌to‌ ‌customers‌ ‌to‌ ‌exchange‌‌
-                                digital‌ ‌products‌ ‌such‌ ‌as‌ ‌cryptocurrencies‌ ‌and‌ ‌gift‌ ‌cards.‌
-                                <ul>
-                                    <li>Designed‌ ‌and‌ ‌built‌ ‌web‌ ‌service‌ ‌that‌ ‌powers‌ ‌user’s‌ ‌and‌ ‌business’‌‌dashboard‌ ‌</li>
-                                    <li>Configured‌ ‌automated,‌ ‌test-driven‌ ‌deployments‌ ‌</li>
-                                ‌</ul>
-                                <b>Tools‌ ‌and‌ ‌technologies‌:‌ ‌Bootstrap,‌ ‌Django,‌ ‌PostgreSQL,‌ ‌Heroku,‌ ‌Git‌ ‌</b>
-                            </p> 
+                            <hr>
+
+                            <div>
+                                <div class="row">
+                                    <div class="col-md-5">
+                                        <h5><a href="https://travelinfo-staging.herokuapp.com" target="_blank">TravelInfo App</a></h5>
+                                        <span class="text-muted">Weekend project;‌ March 2021</span>
+                                        <br>
+                                        ‌<span class="font-monospace">Python, Django, Node.js, Postgres, GCP, Azure LUIS</span>
+                                    </div>
+                                    <div class="col-md-7">
+                                        <img src="https://res.cloudinary.com/wrecodde/image/upload/v1629577964/Screenshot_from_2021-08-21_21-32-23_heoup9.png" alt="App screenshot" srcset="" class="rounded img-fluid">
+                                        <p>A tool to provide information on public inter-state transportation in Nigeria.‌</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <hr>
+
+                            <div>
+                                <div class="row">
+                                    <div class="col-md-5">
+                                        <h5><a href="https://clipboard-app.netlify.app" target="_blank">Clipboard App</a></h5>
+                                        <span class="text-muted">Weekend project;‌ Oct 2020‌</span>
+                                        <br>
+                                        ‌<span class="font-monospace">Python, Starlette, Async APIs, MongoDB, VueJS, Chakra UI, GCP</span>
+                                    </div>
+                                    <div class="col-md-7">
+                                        <img src="https://res.cloudinary.com/wrecodde/image/upload/v1629576959/Screenshot_from_2021-08-21_21-15-26_tgq7yi.png" alt="App screenshot" srcset=""  class="rounded img-fluid">
+                                        <p>Needing a project to practive VueJS with and a tool to move text between devices with, I built the app.‌</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <hr>
+
+                            <div>
+                                <div class="row">
+                                    <div class="col-md-5">
+                                        <h5>Ubycohub‌</h5>
+                                        <span class="text-muted">Freelance developer;‌ March 2020</span>
+                                        <br>
+                                        ‌<span class="font-monospace">Python, Django, Bootstrap, Heroku</span>
+                                </div>
+                                    <div class="col-md-7">
+                                        <p>
+                                            Ubycohub‌ ‌offers‌ ‌business‌ ‌and‌ ‌trading‌ ‌facilities‌ ‌to‌ ‌customers‌ ‌to‌ ‌exchange‌‌ 
+                                            digital‌ ‌products‌ ‌such‌ ‌as‌ ‌cryptocurrencies‌ ‌and‌ ‌gift‌ ‌cards.‌‌<br>
+                                            I designed and built dashboards for the business and users, within a test-driven, automated deployment system.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
 ‌
                         </div>
                     </div>
@@ -118,13 +155,20 @@
                 <div class="row h-100 align-items-center">
                     <div class="col">
                         <div class="m-3">
-                            <p class="lead text-muted">The name is</p>
-                            <h1 class="display-2 fw-bolder text-light">Deji.</h1>
-                            <h1 class="display-2 fw-bolder text-light">Deji Joseph</h1>
+                            <p class="text-muted fs-4">Hi</p>
+                            <h1 class="display-2 fw-bolder text-light">I'm Deji</h1>
+                            <span class="text-muted fs-3">@wrecodde</span>
+                            <hr class="text-light">
+                            <h1 class="text-light fw-lighter">Backend web developer</h1>
+
+                            <p class="pt-5 text-light fw-lighter fs-4">Building systems that work is what I do.</p>
+                            <p class="text-light fw-lighter fs-4">Make it good, make it secure, and of course, make it fast.</p>
+
+                            <a href="https://github.com/wrecodde"><img src="https://res.cloudinary.com/wrecodde/image/upload/v1629576138/GitHub-Mark-Light-32px_upkvz1.png" alt="GitHub" srcset="" class="rounded img-fluid"></a>
                         </div>
 
                         <div class="m-3">
-                            <h2 class="fw-bolder text-light">Say hi</h2>
+                            <h2 class="fw-bolder text-light">Leave me a message</h2>
                             <form action="/contact" method="post">
                                 {% csrf_token %}
                                 <div class="mb-3">
@@ -155,59 +199,89 @@
                 <div class="row h-100 align-items-center">
                     <div class="col">
                         <div class="m-3">
-                            <h4>Skills</h4>
-                            <p>Python. Javascript. PHP.</p>
+                            
+                            <h4>Tech and tools I'm good with</h4>
+
+                            <p>Python 👌 and Javascript</p>
                             <p>Bootstrap. VueJS. Django. Starlette.</p>
                             <p>Git/GitHub. GCP. AWS. Heroku. Docker.</p>
 
                             <hr>
 
-                            <h4>Work experience</h4>
+                            <h4>Stuff I've worked on</h4>
 
-                            <h5><a href="https://internship.zuri.team" target="_blank">HNGi8 Internship Program‌</a></h5>
-                            <span class="text-muted">Intern‌ ‌—‌ ‌Remote;‌ Current‌</span>
-                            <p>
-                                The HNG Internsip is a well-established platform given to upskilling individuals 
-                                for the workplace environment, developers, and designers alike. 
-                                As an intern on the backend track, I get more hands-on experience building live products.
-                                <br>
-                                ‌<b>Tools‌ ‌and‌ ‌technologies‌:‌ Python, Django, Git, GitHub</b>
-                            ‌</p>
+                            <div>
+                                <div class="row">
+                                    <div class="col-md-5">
+                                        <h5><a href="https://internship.zuri.team" target="_blank">HNGi8 Internship Program‌</a></h5>
+                                        <span class="text-muted">Intern‌ ‌—‌ ‌Remote;‌ Current‌</span>
+                                        <br>
+                                        ‌<span class="font-monospace">Python, Django, Git, GitHub</span>
+                                    </div>
+                                    <div class="col-md-7">
+                                        <p>
+                                            Currently participating in the HNGi8 Internship Program on the backend track, working with Python/Django.<br>
+                                            Awesome people and an exciting experience so far, promises to get even better working on tasking challenges.
+                                            
+                                        ‌</p>
+                                    </div>
+                                </div>
+                            </div>
 
-                            <h5>Zuri‌ ‌Training‌</h5>
-                            <span class="text-muted">Intern‌ ‌—‌ ‌Remote;‌ ‌May‌ ‌2021‌</span>
-                            <p>
-                                Training‌ ‌is‌ ‌a‌ ‌4-month‌ ‌long‌ ‌program‌ ‌aimed‌ ‌at‌ ‌getting‌ ‌beginners‌ ‌started‌‌
-                                in‌ ‌the‌ ‌industry.‌ ‌Fully‌ ‌remote,‌ ‌the‌ ‌program‌ ‌combined‌ ‌hands-on‌ ‌experience‌‌
-                                working‌ ‌on‌ ‌real-life‌ ‌projects,‌ ‌collaboration,‌ ‌and‌ ‌mentorship‌ ‌to‌ ‌deliver‌ ‌an‌‌
-                                enabling‌ ‌environment‌ ‌to‌ ‌upskill‌ ‌developers.‌
-                                <br>
-                                ‌<b>Tools‌ ‌and‌ ‌technologies‌:‌ ‌PHP‌ ‌(Vanilla),‌ ‌Laravel,‌ ‌Git,‌ ‌GitHub‌ </b>
-                            ‌</p>
+                            <hr>
+
+                            <div>
+                                <div class="row">
+                                    <div class="col-md-5">
+                                        <h5><a href="https://travelinfo-staging.herokuapp.com" target="_blank">TravelInfo App</a></h5>
+                                        <span class="text-muted">Weekend project;‌ March 2021</span>
+                                        <br>
+                                        ‌<span class="font-monospace">Python, Django, Node.js, Postgres, GCP, Azure LUIS</span>
+                                    </div>
+                                    <div class="col-md-7">
+                                        <img src="https://res.cloudinary.com/wrecodde/image/upload/v1629577964/Screenshot_from_2021-08-21_21-32-23_heoup9.png" alt="App screenshot" srcset="" class="rounded img-fluid">
+                                        <p>A tool to provide information on public inter-state transportation in Nigeria.‌</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <hr>
+
+                            <div>
+                                <div class="row">
+                                    <div class="col-md-5">
+                                        <h5><a href="https://clipboard-app.netlify.app" target="_blank">Clipboard App</a></h5>
+                                        <span class="text-muted">Weekend project;‌ Oct 2020‌</span>
+                                        <br>
+                                        ‌<span class="font-monospace">Python, Starlette, Async APIs, MongoDB, VueJS, Chakra UI, GCP</span>
+                                    </div>
+                                    <div class="col-md-7">
+                                        <img src="https://res.cloudinary.com/wrecodde/image/upload/v1629576959/Screenshot_from_2021-08-21_21-15-26_tgq7yi.png" alt="App screenshot" srcset=""  class="rounded img-fluid">
+                                        <p>Needing a project to practive VueJS with and a tool to move text between devices with, I built the app.‌</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <hr>
+
+                            <div>
+                                <div class="row">
+                                    <div class="col-md-5">
+                                        <h5>Ubycohub‌</h5>
+                                        <span class="text-muted">Freelance developer;‌ March 2020</span>
+                                        <br>
+                                        ‌<span class="font-monospace">Python, Django, Bootstrap, Heroku</span>
+                                </div>
+                                    <div class="col-md-7">
+                                        <p>
+                                            Ubycohub‌ ‌offers‌ ‌business‌ ‌and‌ ‌trading‌ ‌facilities‌ ‌to‌ ‌customers‌ ‌to‌ ‌exchange‌‌ 
+                                            digital‌ ‌products‌ ‌such‌ ‌as‌ ‌cryptocurrencies‌ ‌and‌ ‌gift‌ ‌cards.‌‌<br>
+                                            I designed and built dashboards for the business and users, within a test-driven, automated deployment system.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
                             ‌
-                            <h5>NX‌ ‌Innovations‌</h5>
-                            <span class="text-muted">Intern‌ ‌—‌ ‌Remote;‌ ‌August‌ ‌2020‌</span>
-                            <p>
-                                NX‌ ‌Innovations‌ ‌is‌ ‌a‌ ‌digital‌ ‌solutions‌ ‌provider‌ ‌for‌ ‌advertising‌ ‌and‌‌
-                                e-commerce.‌ ‌As‌ ‌an‌ ‌intern,‌ ‌I‌ ‌was‌ ‌part‌ ‌of‌ ‌a‌ ‌team‌ ‌building‌ ‌out‌ ‌the‌ ‌backend‌‌
-                                services‌ ‌to‌ ‌support‌ ‌the‌ ‌company’s‌ ‌expanding‌ ‌e-commerce‌ ‌offering:‌‌
-                                PhatOffers.‌
-                                <br>
-                                ‌<b>Tools‌ ‌and‌ ‌technologies‌:‌ ‌Django/DRF,‌ ‌PostgreSQL,‌ ‌Docker,‌ ‌Git‌</b>
-                            </p>
-                            ‌
-                            <h5>Ubycohub‌</h5> ‌
-                            <span class="text-muted">Freelance‌ ‌Developer‌ ‌—‌ ‌Remote;‌ ‌March‌ ‌2020</span>
-                            <p>
-                                Ubycohub‌ ‌offers‌ ‌business‌ ‌and‌ ‌trading‌ ‌facilities‌ ‌to‌ ‌customers‌ ‌to‌ ‌exchange‌‌
-                                digital‌ ‌products‌ ‌such‌ ‌as‌ ‌cryptocurrencies‌ ‌and‌ ‌gift‌ ‌cards.‌
-                                <ul>
-                                    <li>Designed‌ ‌and‌ ‌built‌ ‌web‌ ‌service‌ ‌that‌ ‌powers‌ ‌user’s‌ ‌and‌ ‌business’‌‌dashboard‌ ‌</li>
-                                    <li>Configured‌ ‌automated,‌ ‌test-driven‌ ‌deployments‌ ‌</li>
-                                ‌</ul>
-                                <b>Tools‌ ‌and‌ ‌technologies‌:‌ ‌Bootstrap,‌ ‌Django,‌ ‌PostgreSQL,‌ ‌Heroku,‌ ‌Git‌ ‌</b>
-                            </p> 
-‌
                         </div>
                     </div>
                 </div>

@@ -1,3 +1,6 @@
+
+import random
+
 from django.shortcuts import render, redirect
 
 from .models import Contact
@@ -17,4 +20,7 @@ def contact(request):
         contact = Contact(name=name, email=email, message=message)
         contact.save()
 
-        return render(request, 'landing/thanks.html', {'name': name})
+        reactions = ["😉", "😎", "😄", "🤖", "✌️"]
+        reaction = random.choice(reactions)
+
+        return render(request, 'landing/thanks.html', {'name': name, "reaction": reaction})
