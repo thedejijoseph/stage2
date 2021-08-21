@@ -173,15 +173,15 @@
                                 {% csrf_token %}
                                 <div class="mb-3">
                                     <label for="nameFormControl" class="form-label text-light">Your name</label>
-                                    <input type="name" class="form-control" id="nameFormControl">
+                                    <input type="name" class="form-control" id="nameFormControl" name="name">
                                 </div>
                                 <div class="mb-3">
                                     <label for="emailFormControl" class="form-label text-light">Your email address</label>
-                                    <input type="email" class="form-control" id="emailFormControl">
+                                    <input type="email" class="form-control" id="emailFormControl" name="email">
                                 </div>
                                 <div class="mb-3">
                                     <label for="messageFormControl" class="form-label text-light">And your message</label>
-                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="4" name="message"></textarea>
                                 </div>
                                 <button class="btn btn-primary" type="submit">Send message</button>
                             </form>
