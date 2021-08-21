@@ -10,9 +10,9 @@ def contact(request):
     if request.method == "GET":
         return redirect('index')
     elif request.method == "POST":
-        name = request.POST.get('name', 'mate')
-        email = request.POST.get('email', 'you@mates.com')
-        message = request.POST.get('message', 'Hello, mate')
+        name = request.POST.get('name')
+        email = request.POST.get('email')
+        message = request.POST.get('message')
 
         contact = Contact(name=name, email=email, message=message)
         contact.save()
