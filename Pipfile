@@ -8,6 +8,7 @@ django = "*"
 psycopg2-binary = "*"
 gunicorn = "*"
 environs = "*"
+ipython = "*"
 
 [dev-packages]
 
